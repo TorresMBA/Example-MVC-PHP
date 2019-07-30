@@ -4,5 +4,10 @@
 			parent::__construct();
 			$this->view->render('nuevo/index');
 		}
+
+		public function registrar(){
+			echo "Alumno Creado";
+			$this->model->insertDatos();
+		}
 	}
 ?>
