@@ -11,7 +11,7 @@
         require 'Views/header.php';
     ?>
     <div id="main">
-        <h1 class="center error">Error al carga el recurso</h1>
+        <h1 class="center">Seccion Consulta</h1>
     </div>
     <?php
         require 'Views/footer.php';

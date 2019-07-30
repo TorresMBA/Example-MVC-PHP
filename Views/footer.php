@@ -4,17 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="public/css/main.css">
     <title>Document</title>
 </head>
 <body>
-    <?php
-        require 'Views/header.php';
-    ?>
-    <div id="main">
-        <h1 class="center error">Error al carga el recurso</h1>
+    <div id="footer">
+        Brian Torres 2019
     </div>
-    <?php
-        require 'Views/footer.php';
-    ?>
 </body>
 </html>
