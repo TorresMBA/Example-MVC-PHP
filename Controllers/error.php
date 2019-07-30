@@ -1,7 +1,9 @@
 <?php 
-	class Eror{
+	class Eror extends Controller{
 		function __construct(){
-			echo "<p>Error al cargar la pagina</p>";
+			parent::__construct();
+			$this->view->render('error/index');
+			//echo "<p>Error al cargar la pagina</p>";
 		}
 	}
 	
